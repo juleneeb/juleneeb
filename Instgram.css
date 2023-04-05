@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Playball&display=swap');
+
+@charset "UTF-8";
+/* CSS Document */
+/*elements*/
+
+#content h1{
+	font-family: 'Oleo Script', cursive;
+	margin: 10px 10px;
+	font-size: 50px;
+}
+
+#content{
+	font-family: 'Open Sans', sans-serif;
+	margin: 0 20%;
+	align-content: center;
+}
+
+#pictures{
+	display: flex;
+	justify-content: center;
+	justify-content: space-around; 
+}
+
+#video p{
+	margin: -6px 0;
+}
+h1, h2, p {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+#videos{
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+}
+
+#video p{
+	margin: -6px 0;
+}
+#mountain{
+	display: block;
+	margin: 0 auto;
+}
+/*classes*/
+div.container {
+	display: block;
+	margin: auto;
+	text-align: left;
+/*	background-color: lightgoldenrodyellow;*/
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  text-decoration: none;
+list-style-type: none;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: gray;
+	transition-delay:.3s;
+}
+
+#copy{
+	display: flex;
+	justify-content: left;
+}
+
+h2 {
+  font-size: 30px;
+	line-height: 1;
+}
+h6{
+	font-size: 30px;
+}

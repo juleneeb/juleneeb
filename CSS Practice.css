@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*elements*/
+h1 {
+	color:aquamarine;
+}
+/*classes*/
+div.container {
+	display: block;
+	margin: auto;
+	text-align: center;
+	background-color: aqua;
+}

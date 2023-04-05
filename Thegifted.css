@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/*elements*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Playball&display=swap');
+
+ h1{
+	font-family: 'Oleo Script', cursive;
+	margin: 10px 10px;
+	paddin: 0;
+}
+
+#content{
+	font-family: 'Open Sans', sans-serif;
+	margin: 0 20%;
+
+}
+.pitureContainer {
+    display: flex;
+	justify-content: center;
+	justify-content: space-around;
+}
+
+.jensart{
+	text-align: left
+}
+h1 {
+	color:aquamarine;
+	font-size: 50px;
+}
+/*classes*/
+div.container {
+	display: block;
+	margin: auto;
+	text-align: left;
+}
+
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  	float: left;
+	text-decoration: none;
+list-style-type: none;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: gray;
+	transition-delay:.3s;
+}
+
+#copy{
+	display: flex;
+	justify-content: left;
+}
+
+h2 {
+  font-size: 30px;
+	line-height: 1;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 10px;
+}
+h5 {
+  font-size: 20px;
+	line-height: 1;
+}
+h6 {
+  font-size: 20px;
+}
